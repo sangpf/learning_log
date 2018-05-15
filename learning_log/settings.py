@@ -75,7 +75,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'learning_log.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
@@ -137,3 +136,6 @@ STATIC_URL = '/static/'
 BOOTSTRAP3 = {
     'include_jquery': True
 }
+
+ALLOWED_HOSTS = ['47.94.108.128', 'localhost', '127.0.0.1']
+
